@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Het Zinzuwadiya | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<div id="header">
+    <div class="contaner">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contect">Contect</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+         
+        <!--------------------------------------------- Personal Bio in this secxtion ----------------------------------------------------->
+        <div class="header-text">
+            <p>UI/UX Desiner</p>
+            <h1>Hi, I'm <span> Het </span> <br> Zinzuwadiya From India</h1>
+        </div>
+    </div>
+</div>
+
+<!----------------------------------------------------- About Me in this secxtion Time Stemp 21.05 minits ----------------------------------------------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-1">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hi, I'm Het Zinzuwadiya, a beginner web developer with a good understanding of HTML, CSS, and basic JavaScript. I also have basic knowledge of Java, C, and Python, and I'm familiar with backend concepts. Currently, I'm exploring game development and enjoy learning new technologies through hands-on practice and mini projects.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('exprereance')">Exprereance</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <!-- This is for the skill content  Time Stemp 21.05 minits -->
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>
+                            <span>UI/UX</span><br>Desining web/app Interfaces
+                        </li>
+                        <li>
+                            <span>App Developer</span><br>Desining web/app Interfaces
+                        </li>
+                        <li>
+                            <span>Web Developer</span><br>Desining web/app Interfaces
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- This is for the Expreeance content  Time Stemp 21.05 minits -->
+                <div class="tab-contents" id="exprereance">
+                    <ul>
+                        <li>
+                            <span>2022</span><br>Company name which the we are the Exprereance of the IT field
+                        </li>
+                        <li>
+                            <span>2023</span><br>Company name which the we are the Exprereance of the IT field
+                        </li>
+                        <li>
+                            <span>2025</span><br>Company name which the we are the Exprereance of the IT field
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- This is for the Education content  Time Stemp 21.05 minits -->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>10th</span><br>Complete in 2020 with the 60%
+                        </li>
+                        <li>
+                            <span>12th</span><br>Complete in 2022 with the 75%(84.42PR) 
+                        </li>
+                        <li>
+                            <span>Bsc.IT</span><br>Complete in 2022-2025 with the 8.75 CGPA In Ganpat University
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------------- Services in this secxtion Time Stemp 42.37 minits --------------------------------------------------------------------->
+
+<div id="services">
+    <div class="container-services">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i> <!-- Icon for Web Design -->
+                <h2>Web Design</h2>
+                <p>lorem ispua sit amet, jci dijcoiwj dcnsdjscoidjc vwjijdn sncshdud sncaushcnsc iscjijcsnca ckjshduncn hduhn hwqdoiwjd hwidwbf owqdiqwjdns </p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fas fa-pencil-ruler"></i> <!-- Icon for UI/UX Design -->
+                <h2>App Design</h2>
+                <p>lorem ispua sit amet, jci dijcoiwj dcnsdjscoidjc vwjijdn sncshdud sncaushcnsc iscjijcsnca ckjshduncn hduhn hwqdoiwjd hwidwbf owqdiqwjdns </p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fas fa-mobile-alt"></i> <!-- Icon for App Design -->
+                <h2>UI/UX Design</h2>
+                <p>lorem ispua sit amet, jci dijcoiwj dcnsdjscoidjc vwjijdn sncshdud sncaushcnsc iscjijcsnca ckjshduncn hduhn hwqdoiwjd hwidwbf owqdiqwjdns </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------------- Portfolio in this secxtion Time Stemp 54.26 minits --------------------------------------------------------------------->
+
+<div id="portfolio">
+    <div class="continer">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <!------------------------------ Add the all work iMages in this section --------------------------------------->
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connet you to the peopel and the all around the world in thei part of the add the more informaito nabout the work</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connet you to the peopel and the all around the world in thei part of the add the more informaito nabout the work</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Onlene shoping App</h3>
+                    <p>The app connet you to the peopel and the all around the world in thei part of the add the more informaito nabout the work</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!--To this-->
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-------------------------------------- Contect Details in this secxtion Time Stemp 1:10:03 minits --------------------------------------------------------------------->
+
+<div id="contect">
+    <div class="continer">
+        <div class="row">
+            <div class="contect-left">
+                <h1 class="sub-title">Contect Me</h1>
+                <p> <i class="fas fa-paper-plane"></i> zinzuwadiyahet2@gmail.com</p>
+                <p> <i class="fas fa-phone"></i> 9157840835</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/het_zinzuwadiya_11" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href=" linkedin.com/in/het-zinzuwadiya-1b6a48320" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/share/1BSTJsswek/" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+                <a href="images/Het Zinzuwadiya .pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contect-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------This is the copyright section------------------------->
+
+<footer class="footer">
+    <div class="footer-container">
+        <h3>Het Zinzuwadiya</h3>
+        <p>Let’s build something amazing together! 🚀</p>
+        
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+
+        <p class="footer-contact">
+            <i class="fas fa-paper-plane"></i> zinzuwadiyahet2@gmail.com <br>
+            <i class="fas fa-phone-alt"></i> 9157840835
+        </p>
+
+        <p class="footer-bottom">© 2025 <span>Het</span> | Made with <i class="fas fa-heart"></i></p>
+    </div>
+</footer>
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<!--Script for the menu bar sider -->
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw6zPxaqTk5vbFX54xx0HigF5jvJvQqW5HPmINgeQHufvXVkRRt1ypqlrWTOiONy5G3/exec'
+  const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully!";
+        setTimeout(function(){
+            msg.innerHTML = "";
+        }, 5000)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
